@@ -1,0 +1,38 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A simple portfolio to display coding projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrantEaton/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "project",
+    "coding",
+    "developer"
+  ],
+  "author": "Grant Eaton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrantEaton/portfolio/issues"
+  },
+  "homepage": "https://github.com/GrantEaton/portfolio#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.2.0"
+  }
+}
